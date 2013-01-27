@@ -1,0 +1,914 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" href="css/global.css" />
+	<link rel="stylesheet" href="css/game_chose.css" />
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var category = $(".category_middle");
+		var sub_category = $(".sub_category");
+		category.hover(function(){
+			var index = category.index(this);
+			category.eq(index).addClass("focus");
+            sub_category.eq(index).show();
+		},function(){
+			$(this).removeClass("focus");
+			sub_category.hide();
+		});
+		
+		<!-- choose yoru game & buy gold -->
+		var game_menu = $(".game_menu > li");
+		var dl_data = $(".dl_data");
+		game_menu.hover(function(){
+			var index = game_menu.index(this);
+			dl_data.hide();
+			dl_data.eq(index).show();
+		});
+	});
+	</script>
+</head>
+<body>
+	<!-- top begin -->
+	<div class="top fixed">
+		<div class="logo">
+			<img src="images/logo.png" alt="" />
+		</div>
+		<div class="topnav">
+			<ul>
+				<li><a href="#">My Shopping Cart</a></li>
+				<li class="line"></li>
+				<li><a href="#">FAQ</a></li>
+				<li class="line"></li>
+				<li><a href="#">Add to Favorite</a></li>
+			</ul>
+			<div class="live_help fixed">
+				<a href="#" class="chat_now"><img src="images/chat_now.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+	<!-- top end -->
+	
+	<!-- nav begin -->
+	<div class="nav fixed">
+		<div class="nav_left"></div>
+		<div class="nav_middle">
+			<div class="searchbox">
+				<div class="searchbox_left"><input type="text" name="search" id="search" value="Search the games" onfocus="javascript:if(this.value=='Search the games'){this.value='';}" onblur="javascript:if(this.value==''){this.value='Search the games';}" /></div>
+				<div class="searchbox_right"><input type="button" value="" class="btn_search" /></div>
+			</div>
+			<div class="shopping_cart">
+			<a href="#"><img src="images/shopping_cart_title.png" alt="" /></a>
+			</div>
+		</div>
+		<div class="nav_right"></div>
+	</div>
+	<!-- nav end -->
+	
+	<!-- main begin -->
+	<div class="main fixed">
+		<!-- main_left begin -->
+		<div class="main_left">
+			<!-- category begin -->
+			<div class="categorybox_page">
+				<div class="category">
+					<ul>
+						<li class="category_top"></li>
+						<li class="category_middle">
+							<a href="#" class="ca">Guid Wars 2 Gold</a>
+							<dl class="sub_category">
+								<dt><strong><a href="#">Guid Wars 2 Gold</a></strong></dt>
+								<dd>
+									<a href="#">Server1</a>
+									<a href="#">Server2</a>
+									<a href="#">Server3</a>
+									<a href="#">Server4</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="category_middle">
+							<a href="#" class="ca">Guid Wars 2 Items</a>
+							<dl class="sub_category">
+								<dt><strong><a href="#">Guid Wars 2 Items</a></strong></dt>
+								<dd>
+									<a href="#">Server1</a>
+									<a href="#">Server2</a>
+									<a href="#">Server3</a>
+									<a href="#">Server4</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="category_middle">
+							<a href="#" class="ca">Guid Wars 2 Power Leveling</a>
+							<dl class="sub_category">
+								<dt><strong><a href="#">Guid Wars 2 Power Leveling</a></strong></dt>
+								<dd>
+									<a href="#">Server1</a>
+									<a href="#">Server2</a>
+									<a href="#">Server3</a>
+									<a href="#">Server4</a>
+								</dd>
+							</dl>
+						</li>
+						
+						<li class="category_bottom">
+							<a href="#"><img src="images/category_bottom.png" alt="" /></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- category end -->
+			<!-- hot_sale begin -->
+			<div class="hot_sale">
+				<h3></h3>
+				<ul>
+					<li>
+						<a href="#" class="thumb"><img src="images/hotsale_wow.jpg" alt="" /></a><a href="#" class="info">WOW EUR-Burning Legion</a>
+					</li>
+					<li>
+						<a href="#" class="thumb"><img src="images/hotsale_wow.jpg" alt="" /></a><a href="#" class="info">WOW EUR-Burning Legion</a>
+					</li>
+					<li>
+						<a href="#" class="thumb"><img src="images/hotsale_wow.jpg" alt="" /></a><a href="#" class="info">WOW EUR-Burning Legion</a>
+					</li>
+					<li class="none_bg">
+						<a href="#" class="thumb"><img src="images/hotsale_wow.jpg" alt="" /></a><a href="#" class="info">WOW EUR-Burning Legion</a>
+					</li>
+                    <li class="none_bg">
+						<a href="#" class="thumb"><img src="images/hotsale_wow.jpg" alt="" /></a><a href="#" class="info">WOW EUR-Burning Legion</a>
+					</li>
+                    <li class="none_bg">
+						<a href="#" class="thumb"><img src="images/hotsale_wow.jpg" alt="" /></a><a href="#" class="info">WOW EUR-Burning Legion</a>
+					</li>
+                    <li class="none_bg">
+						<a href="#" class="thumb"><img src="images/hotsale_wow.jpg" alt="" /></a><a href="#" class="info">WOW EUR-Burning Legion</a>
+					</li>
+                    <li class="none_bg">
+						<a href="#" class="thumb"><img src="images/hotsale_wow.jpg" alt="" /></a><a href="#" class="info">WOW EUR-Burning Legion</a>
+					</li>
+                    <li class="none_bg">
+						<a href="#" class="thumb"><img src="images/hotsale_wow.jpg" alt="" /></a><a href="#" class="info">WOW EUR-Burning Legion</a>
+					</li>
+				</ul>
+			</div>
+			<!-- hot_sale end -->
+			<!-- popular_seacher begin -->
+			<div class="popular_seacher">
+				<h3></h3>
+				<ul>
+					<li><span class="num">1</span><a href="#">World of Warcraft World of Warcraft</a><span class="rank">193524</span></li>
+					<li><span class="num">2</span><a href="#">World of Warcraft World of Warcraft</a><span class="rank">193524</span></li>
+					<li><span class="num">3</span><a href="#">World of Warcraft World of Warcraft</a><span class="rank">193524</span></li>
+					<li><span class="num">4</span><a href="#">World of Warcraft World of Warcraft</a><span class="rank">193524</span></li>
+					<li><span class="num">5</span><a href="#">World of Warcraft World of Warcraft</a><span class="rank">193524</span></li>
+					<li><span class="num">6</span><a href="#">World of Warcraft World of Warcraft</a><span class="rank">193524</span></li>
+				</ul>
+			</div>
+			<!-- popular_seacher end -->
+		</div>
+		<!-- main_left end -->
+		
+		<!-- main_middle begin -->
+		<div class="main_middle">
+			<!-- sliders begin -->
+			<div class="position">
+                    	<img src="images/position.gif" />&nbsp;&nbsp;GameEasy > <a href="#">Power Leveling</a> > <a href="#">Arcan Online</a>
+            </div>
+			<!-- sliders end -->
+			
+			<!-- ads begin -->
+			<div class="ads fixed">
+				<p class="something"><a href="#">do our best!</a></p>
+			</div>
+			<!-- ads end -->
+			
+			<!-- game_choose begin -->
+			<div class="game_choose">
+				<form action="" id="myform">
+					<h3>
+						<span class="game_choose_title01"></span>
+					</h3>
+					<ul>
+						<li><span>Game :</span>
+						<select name="" id="">
+							<option value="">---Please select the game ---</option>
+							<option value="">Diablo3</option>
+						</select>
+						</li>
+						<li><span>Server :</span>
+						<select name="" id="">
+							<option value="">---Please select the server ---</option>
+						</select>
+						</li>
+						<li><span>Product :</span>
+						<select name="" id="">
+							<option value="">---Please select the product ---</option>
+						</select>
+						</li>
+                        <li><span style="float:left;">Game Account :</span>
+						<input type="text" name="search" id="search" size="30"/>
+                        <input type="submit" value="" class="choose_btn01" />
+						</li>
+                        <li><span>Game Password :</span>
+						<input type="text" name="search" id="search" size="30"/>
+                        <input type="submit" value="" class="choose_btn" />
+						</li>
+					</ul>
+				</form>
+			</div>
+			<!-- game_choose end -->
+			
+			<!-- game_box begin -->
+			<div class="game_box">
+				<ul class="game_menu">
+					<li><a href="#">A</a></li>
+					<li><a href="#">B</a></li>
+					<li><a href="#">C</a></li>
+					<li><a href="#">D</a></li>
+					<li><a href="#">E</a></li>
+					<li><a href="#">F</a></li>
+					<li><a href="#">G</a></li>
+					<li><a href="#">H</a></li>
+					<li><a href="#">I</a></li>
+					<li><a href="#">J</a></li>
+					<li><a href="#">K</a></li>
+					<li><a href="#">L</a></li>
+					<li><a href="#">M</a></li>
+					<li><a href="#">N</a></li>
+					<li><a href="#">O</a></li>
+					<li><a href="#">P</a></li>
+					<li><a href="#">Q</a></li>
+					<li><a href="#">R</a></li>
+					<li><a href="#">S</a></li>
+					<li><a href="#">T</a></li>
+					<li><a href="#">U</a></li>
+					<li><a href="#">V</a></li>
+					<li><a href="#">W</a></li>
+					<li><a href="#">X</a></li>
+					<li><a href="#">Y</a></li>
+					<li><a href="#">Z</a></li>
+				</ul>
+				<div class="game_content">
+					<dl class="dl_data" style="display:block">
+						<dt>A</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+                            
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>B</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>C</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>D</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>E</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>F</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>G</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>H</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>I</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>J</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>K</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>L</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>M</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>N</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>O</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>P</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>Q</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>R</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>S</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>T</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>U</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>V</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>W</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>X</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>Y</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+					<dl class="dl_data">
+						<dt>Z</dt>
+						<dd>
+						<table class="data_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+								<td>Aion</td>
+							</tr>
+							<tr>
+								<td>Arcan - Alethius</td>
+							</tr>
+</table>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!-- game_box end -->
+		</div>
+		<!-- main_middle end -->
+		
+		<!-- main_right begin -->
+		<div class="main_right fixed">
+			<!-- creat_certification begin -->
+			<div class="creat_certification">
+				<h3></h3>
+				<ul>
+					<li><a href="#"><img src="images/trustwave.jpg" alt="" /></a></li>
+					<li><a href="#"><img src="images/mcafee.jpg" alt="" /></a></li>
+				</ul>
+			</div>
+			<!-- creat_certification end -->
+			
+			<!-- order_tracking begin -->
+			<div class="order_tracking">
+				<h3></h3>
+				<form action="" id="orderform" name="orderform" method="post">
+				<ul>
+					<li><span class="span_ml">Order ID:</span><input type="text" class="txt_ml" name="orderid" id="orderid" /></li>
+					<li><span class="span_ml">E - mail:&nbsp;</span><input type="text" class="txt_ml" name="email" id="email" /></li>
+					<li class="t_center"><input type="submit" class="Button_Pic" value="search" /></li>
+				</ul>
+				</form>
+			</div>
+			<!-- order_tracking end -->
+			
+			<!-- contact_us begin -->
+			<div class="contact_us">
+				<h3></h3>
+				<ul>
+					<li>
+					<a href="#"><img src="images/live_up.jpg" alt="" /></a>
+					</li>
+					<li class="title">skype:XXXXXXXX</li>
+					<li class="title">Email:XXXXXX@XX.com</li>
+					<li class="title">Tel No:XXXXXXXX</li>
+				</ul>
+			</div>
+			<!-- contact_us end -->
+			
+			<!-- why_choose begin -->
+			<div class="why_choose">
+				<h3></h3>
+				<ul>
+					<li>
+						<dl>
+							<dt><img src="images/saving_money_ico.jpg" alt="" /><a href="#">Saving Money</a></dt>
+							<dd>
+							Free cash back<br/>
+							bonus:You can<br/>
+							purchase with Bonus<br/>
+							Dollars,and save<br/>
+							more!
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><img src="images/handwor_ico.jpg" alt="" /><a href="#">100% Handwor</a></dt>
+							<dd>
+							We supply the game<br/>
+							products with 100%<br/>
+							handwork and we offer<br/>
+							the safe guaranteed.<br/>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+			<!-- why_choose end -->
+			
+			<div class="share">
+			<ul>
+				<li><a href="#"><img src="images/fackbook.jpg" alt="" /></a></li>
+				<li><a href="#"><img src="images/twitter.jpg" alt="" /></a></li>
+				<li><a href="#"><img src="images/youtube.jpg" alt="" /></a></li>
+			</ul>
+			</div>
+			
+		</div>
+		<!-- main_right end -->
+	</div>
+	<!-- main end -->
+	
+	<!-- foot begin -->
+	<div class="foot fixed">
+		<!-- get_email begin -->
+		<div class="get_email">
+			<img src="images/email_ico.jpg" class="email_ico" alt="" />
+			<span class="email_tip">get up to date Email Sale here：<span>
+			<input type="text" name="" class="email_txt" />
+			<input type="button" class="email_btn" value="" />
+			<span class="small_logo"></span>
+		</div>
+		<!-- get_email end -->
+		
+		<!-- pay begin -->
+		<div class="pay fixed">
+		<ul>
+			<li><a href="#"><img src="images/paypal.jpg" alt="" /></a></li>
+			<li><a href="#"><img src="images/visa.jpg" alt="" /></a></li>
+			<li><a href="#"><img src="images/american_express.jpg" alt="" /></a></li>
+			<li class="no_mr"><a href="#"><img src="images/google_wallet.jpg" alt="" /></a></li>
+		</ul>
+		</div>
+		<!-- pay end -->
+		
+		<!-- fmenu begin -->
+		<div class="fmenu fixed">
+		<ul>
+			<li>
+				<dl class="fm_title">
+					<dd>Site Information</dd>
+					<dd>Membership Rewards</dd>
+					<dd>SwagVault Affiliates</dd>
+					<dd>Customer Service</dd>
+					<dd>Help</dd>
+				</dl>
+			</li>
+			<li>
+				<dl class="fm_list">
+					<dd>About SwagVault</dd>
+					<dd>Service Guarantee</dd>
+					<dd>SwagVault Affiliates</dd>
+					<dd>All Game List</dd>
+					<dd>Site Map</dd>
+				</dl>
+				<dl class="fm_list">
+					<dd>About SwagVault</dd>
+					<dd>Service Guarantee</dd>
+					<dd>SwagVault Affiliates</dd>
+					<dd>All Game List</dd>
+					<dd>Site Map</dd>
+				</dl>
+				<dl class="fm_list">
+					<dd>About SwagVault</dd>
+					<dd>Service Guarantee</dd>
+					<dd>SwagVault Affiliates</dd>
+					<dd>All Game List</dd>
+					<dd>Site Map</dd>
+				</dl>
+				<dl class="fm_list">
+					<dd>About SwagVault</dd>
+					<dd>Service Guarantee</dd>
+					<dd>SwagVault Affiliates</dd>
+					<dd>All Game List</dd>
+					<dd>Site Map</dd>
+				</dl>
+				<dl class="fm_list">
+					<dd>About SwagVault</dd>
+					<dd>Service Guarantee</dd>
+					<dd>SwagVault Affiliates</dd>
+					<dd>All Game List</dd>
+					<dd>Site Map</dd>
+				</dl>
+			</li>
+		</ul>
+		</div>
+		<!-- fmenu end -->
+		
+		<!-- flink begin -->
+		<div class="flink fixed">
+			<ul>
+				<li><a href="#">FFXI Gil</a></li><li class="line"></li>
+				<li><a href="#">WOW Gold</a></li><li class="line"></li>
+				<li><a href="#">RS Gold</a></li><li class="line"></li>
+				<li><a href="#">Buy WoW Gold</a></li><li class="line"></li>
+				<li><a href="#">World of Warcraft Gold</a></li><li class="line"></li>
+				<li><a href="#">TERA Gold</a></li><li class="line"></li>
+				<li><a href="#">RIFT Gold</a></li><li class="line"></li>
+				<li><a href="#">Swtor Credits</a></li><li class="line"></li> 
+				<li><a href="#">Guild Wars 2 Gold</a></li><li class="line"></li>
+				<li><a href="#">wizardry gold</a></li><li class="line"></li>
+			</ul>
+		</div>
+		<!-- flink end -->
+		
+		<!-- copyright begin -->
+		<div class="copyright fixed">
+			<p>Copyright 2006-2012 company All Rights Reserved.<a href="#">SiteMap</a></p>
+		</div>
+		<!-- copyright end -->
+		
+	</div>
+	<!-- foot end -->
+</body>
+</html>

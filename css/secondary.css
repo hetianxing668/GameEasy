@@ -1,0 +1,102 @@
+/* main_left begin */
+.main_left{width:732px;float:left;}
+/* main_left end */
+
+/*news*/
+.secondary_left{width:708px; margin-top:5px; float:left;}
+.position{width:708px; margin:10px 0 0 10px;}
+.content{ margin-top:10px;}
+.content_title{ width:703px; background-color:#c10007; height:20px; color:#FFF; font-weight:bold; padding:5px 0 0 5px;}
+.content_title01{ width:703px; background-color:#346aaa; height:20px; color:#FFF; font-weight:bold; padding:5px 0 0 5px;}
+.content_title a{ color:#FFF; margin-left:30px;}
+.content_title a.cur{background-color:#FFB21C;color:#333;padding:5px}
+.content_news{ width:708px;}
+.content_news ul{float:left; line-height:24px;width:688px;background-color:#f0f0f0; padding:10px; display:block;}
+.content_news ul li{float:left;width:100%;height:24px;line-height:24px;background:url(../images/news_ico.png) left center no-repeat; text-indent:24px;}
+.content_news ul li a{ color:#205d9e;}
+.content_news dl dt{ font-size:18px; font-weight:bold; width:100%; text-align:center; margin-top:10px;}
+.content_news dl .new_content_time{ width:100%; text-align:center; margin-top:10px;}
+.content_news dl dd{ line-height:24px;}
+.content_news dl dd p{ margin-top:10px;}
+.content_news dl{ line-height:24px;width:688px;background-color:#f0f0f0; padding:10px;}
+.news_title{ float:left;}
+.news_time{ float:right; margin-right:10px;}
+.page{float:left;width:100%; clear:both; margin-top:10px;}
+.page ul{ width:708px;}
+.page ul li{ float:left; border:1px solid #09C; width:20px; height:18px; text-align:center; margin-left:5px;}
+.page ul li a{ color:#205d9e}
+.page ul li a:hover{ color:#000;}
+.hot_sale01{width:100%;float:left; margin-top:10px; clear:left;}
+.hot_sale01_title{ background-image:url(../images/hot_sale01_title.gif); width:708px; height:30px;}
+.hot_sale01_title .more{width:50px;height:30px;display:block;float:right;margin-right:10px}
+.hot_sale01 h3{width:100%;height:30px;background:#316CAB}
+.hot_sale01 h3 span.title{width:104px;height:30px;display:block;background:url(../images/whats_hot.jpg) center center no-repeat;margin-left:20px;float:left}
+.hot_sale01 h3 a.more{width:32px;height:30px;float:right;margin-right:10px;display:block}
+.hot_sale01 ul{border: 1px solid #E4E4E4;display: block;overflow: hidden;width: 706px;}
+.hot_sale01 ul li{width:117px;float:left;margin-top:8px;margin-left:8px;margin-right:18px;margin-bottom:8px}
+.hot_sale01 ul li.no_mr{margin-right:0px}
+.hot_sale01 ul li a.thumb{width:117px;height:73px;display:block;border:1px solid #E4E4E4}
+.hot_sale01 ul li a.title{width:119px;height:24px;line-height:24px;display:block;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#333333;*margin-bottom:8px}
+
+/*FAQ*/
+.FAQ{ font-weight:bold; width:100%; margin:10px 0 0 10px; font-size:18px;}
+.FAQ_title a{ width:100%; color:#205d9e; display:block;}
+
+/*total*/
+.ova2 ul li{ margin-left:12px; border:1px solid #CCC; width:150px;}
+.whats_hot_total{width:100%;float:left;}
+.whats_hot_total h3{width:100%;height:30px;background:#316CAB}
+.whats_hot_total h3 span.title{width:104px;height:30px;display:block;background:url(../images/whats_hot.jpg) center center no-repeat;margin-left:20px;float:left}
+.whats_hot_total h3 a.more{width:32px;height:30px;float:right;margin-right:10px;display:block}
+.whats_hot_total div ul{border: 1px solid #E4E4E4;display: block;overflow: hidden;width: 507px;}
+.whats_hot_total div ul li{width:150px;float:left;margin-top:8px;margin-left:12px;margin-bottom:8px}
+.whats_hot_total div ul li.no_mr{margin-right:0px}
+.whats_hot_total div ul li a.thumb{width:150px;height:73px;display:block;border:1px solid #E4E4E4}
+.whats_hot_total div ul li a.title{width:150px;height:24px;line-height:24px;display:block;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#A4A4A4;*margin-bottom:8px}
+.title_total{ color:#FFF; text-indent:24px; background:url(../images/wow_01.png) no-repeat; display:block; padding:10px 0 0 px}
+.title_total_bg{ width:509px; height:30px; background-color:#c10007;}
+
+/* gold product*/
+.data_customer{width:710px; margin:10px 0 0 10px;}
+.email_check{ float:left;}
+.payfornow{ float:right; margin-right:20px;}
+.customer_service01{ font-size:18px; font-weight:bold; color:#336ba8;}
+.customer_service02{ font-size:18px; font-weight:bold; color:#c20005;}
+.customer01{width:100%;margin:5px 0px 0px 0px}
+.customer01 tr th{height:28px;line-height:28px;text-align:left;text-indent:1em;background-color:#346AAA;color:#FFFFFF;font-weight:bold}
+.customer01 tr td{height:24px;line-height:24px;text-indent:1em;}
+.customer01 tr td span{ font-weight:bold;}
+.content_products{ width:703px; background-color:#346aaa; height:20px; color:#FFF; font-weight:bold; text-align:center;}
+.data_products{ width:703px; background-color:#f0f0f0; height:20px;}
+.pr_products{ width:240px;}
+.it_products{ width:240px; text-align:center;}
+.pr_explain{ width:240px;}
+.pr_Price{ width:100px;}
+.pr_Price01{ color:#F00;}
+.pr_select{ width:150px; text-align:center;}
+.customer_order{ width:710px; height:45px; background-color:#f0f0f0;}
+.order01{ width:300px;}
+.order02{ width:200px;}
+.order03{ width:150px;}
+.buy_now{ width:710px; height:45px; background-color:#f0f0f0; text-align:right;}
+.buy_now a{ margin:10px 20px 0 0; display:block; float:right;}
+.or_products{ width:125px; text-align:center;}
+.or_explain{ width:250px;}
+.or_Price{ width:100px;}
+.or_qty{ text-align:center; width:100px;}
+.or_re{ width:300px;}
+.or_plan{ width:100px; text-align:center;}
+.choose_border{ width:100%;margin:10px auto 0px auto}
+.total_price{ display:block; float:left; margin:10px 0 0 20px;}
+.your_message{ width:703px; text-align:center;}
+
+/* payforment */
+.payforment{ width:100%; border-bottom:2px solid #346aaa}
+.payforment tr td{ width:25%; height:70px;} 
+
+/*paymentcheck*/
+.link_9c_b{font-family:Verdana,Geneva,sans-serif;color:#333333;font-size:11px;font-weight:bold;padding-left:6px;padding-right:4px;}
+.link_9c_lb{font-family:Verdana,Geneva,sans-serif;color:#666666;font-size:10px;font-weight:bold;padding-right:4px;}
+.shopping-ad-hot{font-family:Verdana,Geneva,sans-serif;COLOR:#ff6600;FONT-SIZE:11px;FONT-WEIGHT:bold;TEXT-DECORATION:none}
+.paymentTitle{background-color:Bisque;font-size:12px;font-weight:bold;height:13px;text-indent:1em;}
+.Button_Pic{background:url("../images/Button_pic.gif") repeat-x scroll left top transparent;border-color:#A8A8A8;border-style:solid;border-width:1px;color:#5D5D5D;cursor:pointer;font-size:11px;font-weight:normal;height:20px;line-height:6px;padding:2px 1px;}

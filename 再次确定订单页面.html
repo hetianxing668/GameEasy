@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+	<title></title>
+	<link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/secondary.css" />
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var category = $(".category_middle");
+		var sub_category = $(".sub_category");
+		category.hover(function(){
+			var index = category.index(this);
+			category.eq(index).addClass("focus");
+            sub_category.eq(index).show();
+		},function(){
+			$(this).removeClass("focus");
+			sub_category.hide();
+		});
+	});
+	</script>
+</head>
+<body>
+	<!-- top begin -->
+	<div class="top fixed">
+		<div class="logo">
+			<img src="images/logo.png" alt="" />
+		</div>
+		<div class="topnav">
+			<ul>
+				<li><a href="#">My Shopping Cart</a></li>
+				<li class="line"></li>
+				<li><a href="#">FAQ</a></li>
+				<li class="line"></li>
+				<li><a href="#">Add to Favorite</a></li>
+			</ul>
+			<div class="live_help fixed">
+				<a href="#" class="chat_now"><img src="images/chat_now.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+	<!-- top end -->
+	
+	<!-- nav begin -->
+	<div class="nav fixed">
+		<div class="nav_left"></div>
+		<div class="nav_middle">
+			<div class="searchbox">
+				<div class="searchbox_left"><input type="text" name="search" id="search" value="Search the games" onfocus="javascript:if(this.value=='Search the games'){this.value='';}" onblur="javascript:if(this.value==''){this.value='Search the games';}" /></div>
+				<div class="searchbox_right"><input type="button" value="" class="btn_search" /></div>
+			</div>
+			<div class="shopping_cart">
+			<a href="#"><img src="images/shopping_cart_title.png" alt="" /></a>
+			</div>
+		</div>
+		<div class="nav_right"></div>
+	</div>
+	<!-- nav end -->
+	
+	<!-- main begin -->
+	<div class="main fixed">
+		<!-- main_left begin -->
+		<div class="main_left">
+        	<div class="main_left_01">
+				<div class="category">
+                    <ul>
+                        <li class="category_top01"></li>
+                    </ul>
+                </div>
+              <div class="secondary_left">
+                	<div class="position">
+                    	<img src="images/position.gif" />&nbsp;&nbsp;GameEasy > <a href="#">FAQ</a>
+                    </div>
+                    <div class="content">
+                    	<table>
+                        	<tr class="content_products">
+                            	<td class="or_products">Product</td>
+                                <td class="or_explain">Explain</td>
+                                <td class="or_Price">Price</td>
+                                <td class="or_qty">Qty</td>
+                                <td class="or_Price">Total</td>
+                                <td class="or_plan">All</td>
+                            </tr>
+                        
+                        	<tr class="data_products">
+                            	<td class="or_products">100M Akio Gold</td>
+                                <td class="or_explain">Game Gold</td>
+                                <td class="or_Price">USD$296.56</td>
+                                <td class="or_qty">1</td>
+                                <td class="or_Price">USD$296.56</td>
+                                <td class="or_plan">USD$296.56</td>
+                            </tr>
+
+                            <tr class="data_products">
+                            	<td class="or_products"><img src="images/item.png" /></td>
+                                <td class="or_explain">Game Items</td>
+                                <td class="or_Price">USD$40.84</td>
+                                <td class="or_qty">6</td>
+                                <td class="or_Price">USD$296.56</td>
+                                <td class="or_plan">USD$360.56</td>
+                            </tr>
+                        </table>
+                        <div class="your_message">
+						<textarea name="" id="" cols="30" rows="10" style="width:703px; height:100px;" ></textarea>
+						</div>
+                    </div>
+                    <div class="buy_now"><span class="total_price">Total Price : $USD1000.00</span><a href="#"><img src="images/payfor.png" alt=""/></a><a href="#"><img src="images/stamp.png" alt=""/></a></div>
+                    <div class="content">
+                    	<div class="content_title"><a href="#">Payment</a><a href="#" class="cur">Order and Delivery</a><a href="#">Coupons</a><a href="#">Affiliate Program</a><a href="#">Membersship</a><a href="#">About GameEasy</a></div>
+                        <div class="content_news">
+                        	<dl>
+                                <dd class="FAQ_title">
+                                <a href="#">Q:why I can not pay successfully with my Credit Card?</a>
+                                <a href="#">Q:why I can not pay successfully with my Credit Card?</a>
+                                <a href="#">Q:why I can not pay successfully with my Credit Card?</a>
+                                </dd>
+                                <dd class="new_content">
+                                <p># Q: Why I can not pay successfully with my Credit Card?</p>
+<p># A:If you can not pay smoothly with your Credit Card. Please make sure your Credit Card has sufficient funds first and also the order amount does not exceed your card limit. And please double check the billing information you submitted is correct.</p>
+
+ 
+
+<p>Please be aware other possible reasons that your purchase is declined:
+*Multiple repeated attempts with different cards.
+*Several large purchases made in a short amount of time
+*Purchases made in another state or country</p>
+
+ 
+
+<p>If you still can not pay success with your credit card, please try other payment options such as PayPal and Google Checkout.  If you have encountered any technical problem please kindly inform us at fastsupport@igxe.com.  Have a nice shopping here!</p>
+
+<p># Q: What is pending e-check, How do I avoid sending an e-check?</p>
+<p># A:A pending-e-check, like writing an electronically check, is a kind of payment method for Pay Pal. It will take days to clear as Pay Pal needs to verify the funds within the senders account. Once the check is cleared, the payment will be transferred to our account and your order is approved immediately.</p>
+
+ 
+
+<p>An unverified account without sufficient balance of your Paypal account results in an e-check. And it usually takes 3-4 days for the payment provider to contact your bank to verify that funds. So if you want to avoid an e-check, the verification process for your account must be completed and there are sufficient funds available. Which option is currently selected for your payment, and what payment options your account supports are of your choice. And you just need to click the blue hyperlink of "choose more funding options" before placing the order to confirm your payment type</p>
+
+<p># Q: What kind of payment methods do you accept？</p>
+<p># A:
+
+We accept PayPal, Credit Card via PayPal, Visa, Visa Debit, MasterCard, MasterCard Debit, American Express,  JCB , Google Wallet, Pay Safe Card and Wire Transfer as the payment methods. We also offer Boleto Bancario for Brazilian Real currency on IGXE.COM.BR and Webmoney , Yandex for Russian Ruble on IGXE.eu site. </p>
+
+                                </dd>
+                                
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="hot_sale01">
+                    	<div class="hot_sale01_title"><a href="#" class="more"></a></div>
+                    	<div class="hot_sale01_content">
+                            <ul>
+                                <li><a href="#" class="thumb"><img src="images/whats_hot_01.jpg" alt="" /></a><a href="#" class="title">World of Warcraft World of Warcraft</a></li>
+                                <li><a href="#" class="thumb"><img src="images/whats_hot_02.jpg" alt="" /></a><a href="#" class="title">World of Warcraft World of Warcraft</a></li>
+                                <li><a href="#" class="thumb"><img src="images/whats_hot_03.jpg" alt="" /></a><a href="#" class="title">World of Warcraft World of Warcraft</a></li>
+                                <li class="no_mr"><a href="#" class="thumb"><img src="images/whats_hot_04.jpg" alt="" /></a><a href="#" class="title">World of Warcraft World of Warcraft</a></li>
+                                <li class="no_mr"><a href="#" class="thumb"><img src="images/whats_hot_04.jpg" alt="" /></a><a href="#" class="title">World of Warcraft World of Warcraft</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>        
+             </div>
+		</div>
+		<!-- main_left end -->
+		
+		<!-- main_right begin -->
+		<div class="main_right fixed">
+			<!-- creat_certification begin -->
+			<div class="creat_certification">
+				<h3></h3>
+				<ul>
+					<li><a href="#"><img src="images/trustwave.jpg" alt="" /></a></li>
+					<li><a href="#"><img src="images/mcafee.jpg" alt="" /></a></li>
+				</ul>
+			</div>
+			<!-- creat_certification end -->
+			
+			<!-- order_tracking begin -->
+			<div class="order_tracking">
+				<h3></h3>
+				<form action="" id="orderform" name="orderform" method="post">
+				<ul>
+					<li><span class="span_ml">Order ID:</span><input type="text" class="txt_ml" name="orderid" id="orderid" /></li>
+					<li><span class="span_ml">E - mail:&nbsp;</span><input type="text" class="txt_ml" name="email" id="email" /></li>
+					<li class="t_center"><input type="submit" class="Button_Pic" value="search" /></li>
+				</ul>
+				</form>
+			</div>
+			<!-- order_tracking end -->
+			
+			<!-- contact_us begin -->
+			<div class="contact_us">
+				<h3></h3>
+				<ul>
+					<li>
+					<a href="#"><img src="images/live_up.jpg" alt="" /></a>
+					</li>
+					<li class="title">skype:XXXXXXXX</li>
+					<li class="title">Email:XXXXXX@XX.com</li>
+					<li class="title">Tel No:XXXXXXXX</li>
+				</ul>
+			</div>
+			<!-- contact_us end -->
+			
+			<!-- why_choose begin -->
+			<div class="why_choose">
+				<h3></h3>
+				<ul>
+					<li>
+						<dl>
+							<dt><img src="images/saving_money_ico.jpg" alt="" /><a href="#">Saving Money</a></dt>
+							<dd>
+							Free cash back<br/>
+							bonus:You can<br/>
+							purchase with Bonus<br/>
+							Dollars,and save<br/>
+							more!
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><img src="images/handwor_ico.jpg" alt="" /><a href="#">100% Handwor</a></dt>
+							<dd>
+							We supply the game<br/>
+							products with 100%<br/>
+							handwork and we offer<br/>
+							the safe guaranteed.<br/>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+			<!-- why_choose end -->
+			
+			<div class="share">
+			<ul>
+				<li><a href="#"><img src="images/fackbook.jpg" alt="" /></a></li>
+				<li><a href="#"><img src="images/twitter.jpg" alt="" /></a></li>
+				<li><a href="#"><img src="images/youtube.jpg" alt="" /></a></li>
+			</ul>
+			</div>
+			
+		</div>
+		<!-- main_right end -->
+	</div>
+	<!-- main end -->
+	
+	<!-- foot begin -->
+	<div class="foot fixed">
+		<!-- get_email begin -->
+		<div class="get_email">
+			<img src="images/email_ico.jpg" class="email_ico" alt="" />
+			<span class="email_tip">get up to date Email Sale here：<span>
+			<input type="text" name="" class="email_txt" />
+			<input type="button" class="email_btn" value="" />
+			<span class="small_logo"></span>
+		</div>
+		<!-- get_email end -->
+		
+		<!-- pay begin -->
+		<div class="pay fixed">
+		<ul>
+			<li><a href="#"><img src="images/paypal.jpg" alt="" /></a></li>
+			<li><a href="#"><img src="images/visa.jpg" alt="" /></a></li>
+			<li><a href="#"><img src="images/american_express.jpg" alt="" /></a></li>
+			<li class="no_mr"><a href="#"><img src="images/google_wallet.jpg" alt="" /></a></li>
+		</ul>
+		</div>
+		<!-- pay end -->
+		
+		<!-- fmenu begin -->
+		<div class="fmenu fixed">
+		<ul>
+			<li>
+				<dl class="fm_title">
+					<dd>Site Information</dd>
+					<dd>Membership Rewards</dd>
+					<dd>SwagVault Affiliates</dd>
+					<dd>Customer Service</dd>
+					<dd>Help</dd>
+				</dl>
+			</li>
+			<li>
+				<dl class="fm_list">
+					<dd>About SwagVault</dd>
+					<dd>Service Guarantee</dd>
+					<dd>SwagVault Affiliates</dd>
+					<dd>All Game List</dd>
+					<dd>Site Map</dd>
+				</dl>
+				<dl class="fm_list">
+					<dd>About SwagVault</dd>
+					<dd>Service Guarantee</dd>
+					<dd>SwagVault Affiliates</dd>
+					<dd>All Game List</dd>
+					<dd>Site Map</dd>
+				</dl>
+				<dl class="fm_list">
+					<dd>About SwagVault</dd>
+					<dd>Service Guarantee</dd>
+					<dd>SwagVault Affiliates</dd>
+					<dd>All Game List</dd>
+					<dd>Site Map</dd>
+				</dl>
+				<dl class="fm_list">
+					<dd>About SwagVault</dd>
+					<dd>Service Guarantee</dd>
+					<dd>SwagVault Affiliates</dd>
+					<dd>All Game List</dd>
+					<dd>Site Map</dd>
+				</dl>
+				<dl class="fm_list">
+					<dd>About SwagVault</dd>
+					<dd>Service Guarantee</dd>
+					<dd>SwagVault Affiliates</dd>
+					<dd>All Game List</dd>
+					<dd>Site Map</dd>
+				</dl>
+			</li>
+		</ul>
+		</div>
+		<!-- fmenu end -->
+		
+		<!-- flink begin -->
+		<div class="flink fixed">
+			<ul>
+				<li><a href="#">FFXI Gil</a></li><li class="line"></li>
+				<li><a href="#">WOW Gold</a></li><li class="line"></li>
+				<li><a href="#">RS Gold</a></li><li class="line"></li>
+				<li><a href="#">Buy WoW Gold</a></li><li class="line"></li>
+				<li><a href="#">World of Warcraft Gold</a></li><li class="line"></li>
+				<li><a href="#">TERA Gold</a></li><li class="line"></li>
+				<li><a href="#">RIFT Gold</a></li><li class="line"></li>
+				<li><a href="#">Swtor Credits</a></li><li class="line"></li> 
+				<li><a href="#">Guild Wars 2 Gold</a></li><li class="line"></li>
+				<li><a href="#">wizardry gold</a></li><li class="line"></li>
+			</ul>
+		</div>
+		<!-- flink end -->
+		
+		<!-- copyright begin -->
+		<div class="copyright fixed">
+			<p>Copyright 2006-2012 company All Rights Reserved.<a href="#">SiteMap</a></p>
+		</div>
+		<!-- copyright end -->
+		
+	</div>
+	<!-- foot end -->
+</body>
+</html>
